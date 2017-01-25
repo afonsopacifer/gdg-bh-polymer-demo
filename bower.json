@@ -1,0 +1,8 @@
+{
+  "name": "gdg-bh",
+  "version": "0.1.0",
+  "dependencies": {
+    "polymer": "polymer/polymer#^1.7.1",
+    "github-corner": "^1.0.0"
+  }
+}

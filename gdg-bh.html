@@ -1,0 +1,38 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="gdg-bh">
+
+	<template>
+		<style>
+			:host {
+				--cor: #f442a1;
+			}
+			h1 {
+				color: var(--cor);
+			}
+		</style>
+
+		<h1>
+			Hello {{nome}}
+		</h1>
+	</template>
+
+	<script>
+		Polymer({
+			is:"gdg-bh",
+			properties: {
+				nome: {
+					type: String,
+					value: "GDG BH"
+				}
+			},
+			listeners: {
+				'tap': function() {}
+			},
+			hello: function() {
+				console.log('hello')
+			}
+		});
+	</script>
+
+</dom-module>
